@@ -49,10 +49,6 @@
     
 }
 
--(void)reset {
-    _needle.transform = CGAffineTransformMakeRotation(-0.7853981634);
-}
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -103,8 +99,17 @@
         
         _needle.transform = CGAffineTransformMakeRotation(-0.7853981634);
     }
+    
+    [UIView animateWithDuration:0.8 delay:0 usingSpringWithDamping:0.8 initialSpringVelocity:0 options:0 animations:^{
+        _needle.transform = CGAffineTransformMakeRotation(-0.7853981634);
+    }completion:nil];
 
 }
+
+-(void)reset {
+    _needle.transform = CGAffineTransformMakeRotation(-0.7853981634);
+}
+
 
 
 
