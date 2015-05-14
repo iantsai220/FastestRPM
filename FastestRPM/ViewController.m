@@ -16,6 +16,8 @@
 
 @property (nonatomic) double timeElapsed;
 
+@property (nonatomic) NSTimer *timer;
+
 
 @end
 
@@ -40,14 +42,15 @@
     
     UIPanGestureRecognizer *panGesture = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panGesture:)];
     
+    
+    
     [self.view addGestureRecognizer:panGesture];
+   
     
-    
-    
-    
-    
-    
-    
+}
+
+-(void)reset {
+    _needle.transform = CGAffineTransformMakeRotation(-0.7853981634);
 }
 
 - (void)didReceiveMemoryWarning {
@@ -79,6 +82,10 @@
     
     
 //    CGFloat velocity = distance / self.timeElapsed;
+    [self.timer invalidate];
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(reset) userInfo:nil repeats:NO];
+    
+    
     CGPoint gestureVelocity = [sender velocityInView:self.view];
     
     //set max
@@ -93,13 +100,9 @@
     _needle.transform = CGAffineTransformMakeRotation(radian);
     
     if (sender.state == UIGestureRecognizerStateEnded) {
+        
         _needle.transform = CGAffineTransformMakeRotation(-0.7853981634);
     }
-    
-    
-    
-    
-    
 
 }
 

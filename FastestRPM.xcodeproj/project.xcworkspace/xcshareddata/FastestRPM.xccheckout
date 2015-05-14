@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>1688B8BE-BBF5-4072-B0AF-8375330EB299</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>FastestRPM</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>6BBB11555FBB8813E6E7E6CFD5099A655EB8BAFF</key>
 		<string>github.com:iantsai220/FastestRPM.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>FastestRPM.xcodeproj/project.xcworkspace</string>
+	<string>FastestRPM.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>6BBB11555FBB8813E6E7E6CFD5099A655EB8BAFF</key>
