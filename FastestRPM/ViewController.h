@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *speedOmeter;
+
+@property (weak, nonatomic) IBOutlet UIImageView *needle;
+
 
 @end
 

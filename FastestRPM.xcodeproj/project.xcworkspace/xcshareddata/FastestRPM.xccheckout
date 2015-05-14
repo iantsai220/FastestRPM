@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1688B8BE-BBF5-4072-B0AF-8375330EB299</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6BBB11555FBB8813E6E7E6CFD5099A655EB8BAFF</key>
+		<string>github.com:iantsai220/FastestRPM.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FastestRPM.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6BBB11555FBB8813E6E7E6CFD5099A655EB8BAFF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:iantsai220/FastestRPM.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6BBB11555FBB8813E6E7E6CFD5099A655EB8BAFF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6BBB11555FBB8813E6E7E6CFD5099A655EB8BAFF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FastestRPM</string>
+		</dict>
+	</array>
+</dict>
+</plist>

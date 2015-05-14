@@ -14,6 +14,8 @@
 		96AC6ECD1B05158700A00EF2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96AC6ECC1B05158700A00EF2 /* Images.xcassets */; };
 		96AC6ED01B05158700A00EF2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96AC6ECE1B05158700A00EF2 /* LaunchScreen.xib */; };
 		96AC6EDC1B05158800A00EF2 /* FastestRPMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AC6EDB1B05158800A00EF2 /* FastestRPMTests.m */; };
+		96AC6EE71B05171200A00EF2 /* speedometer.png in Resources */ = {isa = PBXBuildFile; fileRef = 96AC6EE61B05171200A00EF2 /* speedometer.png */; };
+		96AC6EE91B05198400A00EF2 /* needle.png in Resources */ = {isa = PBXBuildFile; fileRef = 96AC6EE81B05198400A00EF2 /* needle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		96AC6ED51B05158800A00EF2 /* FastestRPMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastestRPMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96AC6EDA1B05158800A00EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96AC6EDB1B05158800A00EF2 /* FastestRPMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastestRPMTests.m; sourceTree = "<group>"; };
+		96AC6EE61B05171200A00EF2 /* speedometer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = speedometer.png; path = FastestRPM/Image/speedometer.png; sourceTree = "<group>"; };
+		96AC6EE81B05198400A00EF2 /* needle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = needle.png; path = FastestRPM/Image/needle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 		96AC6EB31B05158700A00EF2 = {
 			isa = PBXGroup;
 			children = (
+				96AC6EE51B0516DC00A00EF2 /* Image */,
 				96AC6EBE1B05158700A00EF2 /* FastestRPM */,
 				96AC6ED81B05158800A00EF2 /* FastestRPMTests */,
 				96AC6EBD1B05158700A00EF2 /* Products */,
@@ -117,6 +122,15 @@
 				96AC6EDA1B05158800A00EF2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96AC6EE51B0516DC00A00EF2 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				96AC6EE61B05171200A00EF2 /* speedometer.png */,
+				96AC6EE81B05198400A00EF2 /* needle.png */,
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +214,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				96AC6ECB1B05158700A00EF2 /* Main.storyboard in Resources */,
+				96AC6EE91B05198400A00EF2 /* needle.png in Resources */,
 				96AC6ED01B05158700A00EF2 /* LaunchScreen.xib in Resources */,
 				96AC6ECD1B05158700A00EF2 /* Images.xcassets in Resources */,
+				96AC6EE71B05171200A00EF2 /* speedometer.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
